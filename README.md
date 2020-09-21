@@ -1,5 +1,5 @@
 # User
-Ansible role to configures a user on a Windows 10 machine.
+Ansible role to configure a user on a Windows 10 machine.
 
 ## Requirements
 None.
