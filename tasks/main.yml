@@ -1,0 +1,9 @@
+---
+- name: set up user
+  win_user:
+    name: "{{ user_name }}"
+    password: "{{ user_password }}"
+    password_never_expires: true
+    state: present
+    groups:
+      - Administrators
