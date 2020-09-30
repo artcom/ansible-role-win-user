@@ -1,6 +1,9 @@
 # User
 Ansible role to configure a user on a Windows 10 machine.
 
+## Description
+This role ensures that the user exists, its password is set and does not expire and the user is in the Administrators group.
+
 ## Requirements
 None.
 
