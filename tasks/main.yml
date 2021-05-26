@@ -1,6 +1,6 @@
 ---
 - name: set up user
-  win_user:
+  ansible.windows.win_user:
     name: "{{ user_name }}"
     password: "{{ user_password }}"
     password_never_expires: true
